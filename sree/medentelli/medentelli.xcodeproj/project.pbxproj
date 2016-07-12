@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB181E881CE3CF4A0060B104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB181E871CE3CF4A0060B104 /* AppDelegate.swift */; };
+		EB181E8A1CE3CF4A0060B104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB181E891CE3CF4A0060B104 /* ViewController.swift */; };
+		EB181E8D1CE3CF4A0060B104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB181E8B1CE3CF4A0060B104 /* Main.storyboard */; };
+		EB181E901CE3CF4A0060B104 /* medentelli.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB181E8E1CE3CF4A0060B104 /* medentelli.xcdatamodeld */; };
+		EB181E921CE3CF4A0060B104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB181E911CE3CF4A0060B104 /* Assets.xcassets */; };
+		EB181E951CE3CF4A0060B104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB181E931CE3CF4A0060B104 /* LaunchScreen.storyboard */; };
+		EB181EA01CE3CF4A0060B104 /* medentelliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB181E9F1CE3CF4A0060B104 /* medentelliTests.swift */; };
+		EB181EAB1CE3CF4A0060B104 /* medentelliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB181EAA1CE3CF4A0060B104 /* medentelliUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB181E9C1CE3CF4A0060B104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB181E7C1CE3CF4A0060B104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB181E831CE3CF4A0060B104;
+			remoteInfo = medentelli;
+		};
+		EB181EA71CE3CF4A0060B104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB181E7C1CE3CF4A0060B104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB181E831CE3CF4A0060B104;
+			remoteInfo = medentelli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB181E841CE3CF4A0060B104 /* medentelli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medentelli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB181E871CE3CF4A0060B104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB181E891CE3CF4A0060B104 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB181E8C1CE3CF4A0060B104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB181E8F1CE3CF4A0060B104 /* medentelli.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = medentelli.xcdatamodel; sourceTree = "<group>"; };
+		EB181E911CE3CF4A0060B104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB181E941CE3CF4A0060B104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB181E961CE3CF4A0060B104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB181E9B1CE3CF4A0060B104 /* medentelliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = medentelliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB181E9F1CE3CF4A0060B104 /* medentelliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medentelliTests.swift; sourceTree = "<group>"; };
+		EB181EA11CE3CF4A0060B104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB181EA61CE3CF4A0060B104 /* medentelliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = medentelliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB181EAA1CE3CF4A0060B104 /* medentelliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medentelliUITests.swift; sourceTree = "<group>"; };
+		EB181EAC1CE3CF4A0060B104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB181E811CE3CF4A0060B104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB181E981CE3CF4A0060B104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB181EA31CE3CF4A0060B104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB181E7B1CE3CF4A0060B104 = {
+			isa = PBXGroup;
+			children = (
+				EB181E861CE3CF4A0060B104 /* medentelli */,
+				EB181E9E1CE3CF4A0060B104 /* medentelliTests */,
+				EB181EA91CE3CF4A0060B104 /* medentelliUITests */,
+				EB181E851CE3CF4A0060B104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB181E851CE3CF4A0060B104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB181E841CE3CF4A0060B104 /* medentelli.app */,
+				EB181E9B1CE3CF4A0060B104 /* medentelliTests.xctest */,
+				EB181EA61CE3CF4A0060B104 /* medentelliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB181E861CE3CF4A0060B104 /* medentelli */ = {
+			isa = PBXGroup;
+			children = (
+				EB181E871CE3CF4A0060B104 /* AppDelegate.swift */,
+				EB181E891CE3CF4A0060B104 /* ViewController.swift */,
+				EB181E8B1CE3CF4A0060B104 /* Main.storyboard */,
+				EB181E911CE3CF4A0060B104 /* Assets.xcassets */,
+				EB181E931CE3CF4A0060B104 /* LaunchScreen.storyboard */,
+				EB181E961CE3CF4A0060B104 /* Info.plist */,
+				EB181E8E1CE3CF4A0060B104 /* medentelli.xcdatamodeld */,
+			);
+			path = medentelli;
+			sourceTree = "<group>";
+		};
+		EB181E9E1CE3CF4A0060B104 /* medentelliTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB181E9F1CE3CF4A0060B104 /* medentelliTests.swift */,
+				EB181EA11CE3CF4A0060B104 /* Info.plist */,
+			);
+			path = medentelliTests;
+			sourceTree = "<group>";
+		};
+		EB181EA91CE3CF4A0060B104 /* medentelliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB181EAA1CE3CF4A0060B104 /* medentelliUITests.swift */,
+				EB181EAC1CE3CF4A0060B104 /* Info.plist */,
+			);
+			path = medentelliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB181E831CE3CF4A0060B104 /* medentelli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB181EAF1CE3CF4A0060B104 /* Build configuration list for PBXNativeTarget "medentelli" */;
+			buildPhases = (
+				EB181E801CE3CF4A0060B104 /* Sources */,
+				EB181E811CE3CF4A0060B104 /* Frameworks */,
+				EB181E821CE3CF4A0060B104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = medentelli;
+			productName = medentelli;
+			productReference = EB181E841CE3CF4A0060B104 /* medentelli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB181E9A1CE3CF4A0060B104 /* medentelliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB181EB21CE3CF4A0060B104 /* Build configuration list for PBXNativeTarget "medentelliTests" */;
+			buildPhases = (
+				EB181E971CE3CF4A0060B104 /* Sources */,
+				EB181E981CE3CF4A0060B104 /* Frameworks */,
+				EB181E991CE3CF4A0060B104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB181E9D1CE3CF4A0060B104 /* PBXTargetDependency */,
+			);
+			name = medentelliTests;
+			productName = medentelliTests;
+			productReference = EB181E9B1CE3CF4A0060B104 /* medentelliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB181EA51CE3CF4A0060B104 /* medentelliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB181EB51CE3CF4A0060B104 /* Build configuration list for PBXNativeTarget "medentelliUITests" */;
+			buildPhases = (
+				EB181EA21CE3CF4A0060B104 /* Sources */,
+				EB181EA31CE3CF4A0060B104 /* Frameworks */,
+				EB181EA41CE3CF4A0060B104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB181EA81CE3CF4A0060B104 /* PBXTargetDependency */,
+			);
+			name = medentelliUITests;
+			productName = medentelliUITests;
+			productReference = EB181EA61CE3CF4A0060B104 /* medentelliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB181E7C1CE3CF4A0060B104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "SRIKIRAN INAGANTI";
+				TargetAttributes = {
+					EB181E831CE3CF4A0060B104 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F9K4YR44F8;
+					};
+					EB181E9A1CE3CF4A0060B104 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F9K4YR44F8;
+						TestTargetID = EB181E831CE3CF4A0060B104;
+					};
+					EB181EA51CE3CF4A0060B104 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F9K4YR44F8;
+						TestTargetID = EB181E831CE3CF4A0060B104;
+					};
+				};
+			};
+			buildConfigurationList = EB181E7F1CE3CF4A0060B104 /* Build configuration list for PBXProject "medentelli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB181E7B1CE3CF4A0060B104;
+			productRefGroup = EB181E851CE3CF4A0060B104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB181E831CE3CF4A0060B104 /* medentelli */,
+				EB181E9A1CE3CF4A0060B104 /* medentelliTests */,
+				EB181EA51CE3CF4A0060B104 /* medentelliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB181E821CE3CF4A0060B104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB181E951CE3CF4A0060B104 /* LaunchScreen.storyboard in Resources */,
+				EB181E921CE3CF4A0060B104 /* Assets.xcassets in Resources */,
+				EB181E8D1CE3CF4A0060B104 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB181E991CE3CF4A0060B104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB181EA41CE3CF4A0060B104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB181E801CE3CF4A0060B104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB181E8A1CE3CF4A0060B104 /* ViewController.swift in Sources */,
+				EB181E881CE3CF4A0060B104 /* AppDelegate.swift in Sources */,
+				EB181E901CE3CF4A0060B104 /* medentelli.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB181E971CE3CF4A0060B104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB181EA01CE3CF4A0060B104 /* medentelliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB181EA21CE3CF4A0060B104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB181EAB1CE3CF4A0060B104 /* medentelliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB181E9D1CE3CF4A0060B104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB181E831CE3CF4A0060B104 /* medentelli */;
+			targetProxy = EB181E9C1CE3CF4A0060B104 /* PBXContainerItemProxy */;
+		};
+		EB181EA81CE3CF4A0060B104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB181E831CE3CF4A0060B104 /* medentelli */;
+			targetProxy = EB181EA71CE3CF4A0060B104 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB181E8B1CE3CF4A0060B104 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB181E8C1CE3CF4A0060B104 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB181E931CE3CF4A0060B104 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB181E941CE3CF4A0060B104 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB181EAD1CE3CF4A0060B104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB181EAE1CE3CF4A0060B104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB181EB01CE3CF4A0060B104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = medentelli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inaganti.medentelli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB181EB11CE3CF4A0060B104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = medentelli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inaganti.medentelli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB181EB31CE3CF4A0060B104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = medentelliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inaganti.medentelliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medentelli.app/medentelli";
+			};
+			name = Debug;
+		};
+		EB181EB41CE3CF4A0060B104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = medentelliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inaganti.medentelliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medentelli.app/medentelli";
+			};
+			name = Release;
+		};
+		EB181EB61CE3CF4A0060B104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = medentelliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inaganti.medentelliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = medentelli;
+			};
+			name = Debug;
+		};
+		EB181EB71CE3CF4A0060B104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = medentelliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inaganti.medentelliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = medentelli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB181E7F1CE3CF4A0060B104 /* Build configuration list for PBXProject "medentelli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB181EAD1CE3CF4A0060B104 /* Debug */,
+				EB181EAE1CE3CF4A0060B104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB181EAF1CE3CF4A0060B104 /* Build configuration list for PBXNativeTarget "medentelli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB181EB01CE3CF4A0060B104 /* Debug */,
+				EB181EB11CE3CF4A0060B104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB181EB21CE3CF4A0060B104 /* Build configuration list for PBXNativeTarget "medentelliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB181EB31CE3CF4A0060B104 /* Debug */,
+				EB181EB41CE3CF4A0060B104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB181EB51CE3CF4A0060B104 /* Build configuration list for PBXNativeTarget "medentelliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB181EB61CE3CF4A0060B104 /* Debug */,
+				EB181EB71CE3CF4A0060B104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB181E8E1CE3CF4A0060B104 /* medentelli.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB181E8F1CE3CF4A0060B104 /* medentelli.xcdatamodel */,
+			);
+			currentVersion = EB181E8F1CE3CF4A0060B104 /* medentelli.xcdatamodel */;
+			path = medentelli.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB181E7C1CE3CF4A0060B104 /* Project object */;
+}
